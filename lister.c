@@ -9,7 +9,7 @@ compile: gcc lister.c -o lister
 usage:
 ./lister [-l | -c] dir
 
-to list to stdout all flies:
+to list to stdout all files:
 ./lister -l /mydir
 
 to count files:
